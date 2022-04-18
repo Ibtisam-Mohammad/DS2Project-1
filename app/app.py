@@ -66,7 +66,7 @@ if rad =='Search':
   }
 
 #   @st.cache(allow_output_mutation=True,suppress_st_warning=True)
-  @st.cache()
+#   @st.cache()
 
   def fil(dic_):
     for i,j in dic_.items():
@@ -79,8 +79,8 @@ if rad =='Search':
 #     B.drop(['temp2','Unnamed: 0'],axis=1,inplace=True)
     return B
   B=fil(dic_)
-#   lat_long=pd.read_csv('app/scrapped_lat_long/lat_long.csv')
-#   st.write(lat_long)
+  lat_long=pd.read_csv('app/scrapped_lat_long/lat_long.csv')
+  st.write(lat_long)
   st.write(B[:1000])
   
 
