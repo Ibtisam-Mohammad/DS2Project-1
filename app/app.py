@@ -77,8 +77,8 @@ if rad =='Search':
 #     B.drop(['temp2','Unnamed: 0'],axis=1,inplace=True)
     return B
   B=fil(dic_)
-#   lat_long=pd.read_csv('app/scrapped_lat_long/lat_long.csv')
-#   st.write(lat_long)
+  lat_long=pd.read_csv('app/scrapped_lat_long/lat_long.csv')
+  st.write(lat_long)
   st.write(B[:1000])
   
 
