@@ -63,7 +63,7 @@ def fil(dic_):
 B=fil(dic_)
 # lat_long=pd.read_csv('app/scrapped_lat_long/lat_long.csv')
 # st.write(lat_long)
-st.write(B[:1000])
+# st.write(B[:1000])
   
 
 
